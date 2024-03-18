@@ -51,7 +51,7 @@ const Footer = () => {
 							</Link>
 						</div>
 						<div className="gaLink-2 flex flex-1 flex-col gap-4">
-							<h1 className="mb-4 text-2xl font-bold">ComLinkany</h1>
+							<h1 className="mb-4 text-2xl font-bold">Company</h1>
 							<Link
 								href="https://www.tripcandy.io/about"
 								className="text-stone-200"
@@ -72,7 +72,7 @@ const Footer = () => {
 							</Link>
 						</div>
 						<div className="gaLink-2 flex flex-1 flex-col  gap-4">
-							<h1 className="mb-4 text-2xl font-bold">SuLinkLinkort</h1>
+							<h1 className="mb-4 text-2xl font-bold">Support</h1>
 							<Link
 								href="https://www.tripcandy.io/help-center"
 								className="text-stone-200"
