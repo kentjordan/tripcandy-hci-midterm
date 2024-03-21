@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
 	return (
-		<div className="flex flex-col bg-[#00407E]">
+		<div className="flex flex-col bg-stone-950">
 			<div className="justify-even flex flex-wrap items-center gap-24 p-8 sm:p-16">
 				<div className="flex-1">
 					<Image src={logo} alt=""></Image>
@@ -107,7 +107,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex items-center justify-center bg-[#00305F] p-4 text-center">
+			<div className="flex items-center justify-center bg-black p-4 text-center">
 				<p>© Copyright {new Date().getFullYear()}. TripCandy.</p>
 			</div>
 		</div>
