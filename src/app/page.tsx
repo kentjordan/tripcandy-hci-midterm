@@ -19,7 +19,7 @@ export default function Home() {
 				style={{
 					backgroundImage: `url(${home_cover.src})`,
 				}}
-				className="relative flex h-screen flex-col items-center justify-center bg-cover bg-no-repeat"
+				className="relative flex h-screen flex-col items-center justify-center bg-cover bg-no-repeat text-white"
 			>
 				<Navbar />
 				<h1 className="max-w-[24ch] text-center text-4xl font-bold">
@@ -85,7 +85,7 @@ export default function Home() {
 				</h1>
 				<Image className="absolute bottom-0 left-0 shrink" src={girl} alt="" />
 			</div>
-			<div className="flex min-h-screen flex-col items-center justify-center bg-black py-16">
+			<div className="flex min-h-screen flex-col items-center justify-center bg-black py-16 text-white">
 				<h1 className="mb-12 text-center text-xl font-bold sm:text-4xl">
 					Top Countries
 				</h1>

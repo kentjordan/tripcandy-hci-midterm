@@ -17,7 +17,7 @@ const Footer = () => {
 				</div>
 				<div className="flex-1">
 					<div className="flex flex-wrap justify-center gap-24 sm:flex-nowrap md:justify-end">
-						<div className="flex flex-1 flex-col gap-4">
+						<div className="flex flex-1 flex-col gap-4 text-white">
 							<h1 className="mb-4 text-2xl font-bold">Products</h1>
 							<Link
 								href="https://www.tripcandy.io/buy-earn-candy"
@@ -49,8 +49,8 @@ const Footer = () => {
 							>
 								CANDY Tokenomics
 							</Link>
-						</div>
-						<div className="gaLink-2 flex flex-1 flex-col gap-4">
+						</div> 
+						<div className="gaLink-2 flex flex-1 flex-col gap-4 text-white">
 							<h1 className="mb-4 text-2xl font-bold">Company</h1>
 							<Link
 								href="https://www.tripcandy.io/about"
@@ -71,7 +71,7 @@ const Footer = () => {
 								Invite
 							</Link>
 						</div>
-						<div className="gaLink-2 flex flex-1 flex-col  gap-4">
+						<div className="gaLink-2 flex flex-1 flex-col  gap-4 text-white">
 							<h1 className="mb-4 text-2xl font-bold">Support</h1>
 							<Link
 								href="https://www.tripcandy.io/help-center"
